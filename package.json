@@ -9,18 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@blocksuite/blocks": "^0.15.0",
+    "@blocksuite/presets": "^0.15.0",
+    "@blocksuite/store": "^0.15.0",
+    "@subframe/core": "^1.124.0",
+    "classnames": "^2.3.2",
+    "next": "^14.2.15",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/tailwindcss": "^3.1.0",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "typescript": "^5"
   }
 }
